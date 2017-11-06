@@ -1,0 +1,7 @@
+{% include "base.html.twig" %}
+{% block menu %}
+    <ul>
+        <li> <a href="{{ path('bonjour', {'nom': "Valentin"}) }}">Dire bonjour à Valentin</a> </li>
+        <li> <a href="{{ path('bonjour', {'nom': "Jacky"}) }}">Dire bonjour à Jacky</a> </li>
+    </ul>
+{% endblock %}
