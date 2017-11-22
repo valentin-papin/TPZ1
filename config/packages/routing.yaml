@@ -1,3 +1,13 @@
+#perso:
+#    path: /perso
+#    defaults: { _controller: 'App\Controller\PersonController::indexAction' }
+#fight:
+#    path: /fight
+#    defaults: { _controller: 'App\Controller\FightController::indexAction' }
+#player_new:
+#    path: /player_new
+#    defaults: { _controller: 'App\Controller\PersonController::new' }
+
 framework:
     router:
         strict_requirements: ~
